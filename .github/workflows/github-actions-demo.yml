@@ -5,7 +5,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ vars.VARIABLE }}"
+      - run: echo "${{ vars.VARIABLE }}" 
       - run: echo "${{ secrets.SECRET }}"
       - run: echo "${{ github }}"
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
