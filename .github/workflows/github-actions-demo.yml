@@ -9,7 +9,7 @@ env:
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
-    environment: ${{ vars.TEST }}
+    environment: ${{ vars.ENVIRONMENT_STAGE }}
     steps:
       - run: echo "${{ vars.VARIABLE }}" 
       - run: echo "${{ secrets.SECRET }}"
